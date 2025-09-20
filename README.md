@@ -30,14 +30,6 @@ cord19-analysis/
 ├── .streamlit/
 │   └── config.toml              # Streamlit configuration for large files
 │
-├── data/
-│   ├── metadata.csv             # CORD-19 dataset (download separately)
-│   └── cord19_sample_*.csv      # Generated sample files
-│
-└── exports/
-    ├── *_cleaned.csv            # Processed datasets
-    ├── *_summary.txt            # Analysis summaries
-    └── figures/                 # Generated plots
 ```
 
 ## Installation
@@ -239,4 +231,4 @@ Future enhancements:
 
 ---
 
-**Note**: This project is for research and educational purposes. Follow CORD-19 dataset terms of use and cite appropriately in any publications.
+**Note**: This project is for research and educational purposes. Follow CORD-19 dataset terms of use and cite appropriately in any publications
