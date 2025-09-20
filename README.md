@@ -25,19 +25,8 @@ cord19-analysis/
 ├── requirements.txt              # Python dependencies
 ├── cord19_analysis.py           # Standalone analysis script
 ├── streamlit_app.py             # Interactive dashboard
-├── cord19_analysis.ipynb        # Jupyter notebook (main analysis)
-│
-├── .streamlit/
-│   └── config.toml              # Streamlit configuration for large files
-│
-├── data/
-│   ├── metadata.csv             # CORD-19 dataset (download separately)
-│   └── cord19_sample_*.csv      # Generated sample files
-│
-└── exports/
-    ├── *_cleaned.csv            # Processed datasets
-    ├── *_summary.txt            # Analysis summaries
-    └── figures/                 # Generated plots
+├── cord_19.ipynb        # Jupyter notebook (main analysis)
+                 
 ```
 
 ## Installation
